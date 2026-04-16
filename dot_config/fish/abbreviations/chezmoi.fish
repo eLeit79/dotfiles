@@ -1,0 +1,11 @@
+abbr -a cm 'chezmoi'
+abbr -a cmadd 'chezmoi add'
+abbr -a cmapply 'chezmoi apply'
+abbr -a cmdiff 'chezmoi diff'
+abbr -a cmreadd 'chezmoi re-add'
+abbr -a cmupdate 'chezmoi update'
+abbr -a cmgadd 'chezmoi git add -- .'
+abbr -a cmgcommit 'chezmoi git commit -- -m'
+abbr -a cmgpush 'chezmoi git push'
+abbr -a cmgstatus 'chezmoi git status'
+
