@@ -1,3 +1,3 @@
 #!/bin/sh
-xrandr --output DP-0 --primary --auto --output DP-4 --off
-
+xrandr > /home/men/Documents/sddm-xrandr.txt
+#xrandr --output DP-0 --primary --auto --output DP-4 --off
