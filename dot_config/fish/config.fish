@@ -14,4 +14,3 @@ starship init fish | source
 
 nvm -s install latest
 nvm -s use latest
-
