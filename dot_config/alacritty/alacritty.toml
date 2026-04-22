@@ -14,8 +14,8 @@ x = 16
 y = 16
 
 [window.dimensions]
-columns = 100
-lines = 30
+columns = 120
+lines = 45
 
 [window.class]
 instance = "Alacritty"
