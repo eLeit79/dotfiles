@@ -1,5 +1,5 @@
     layout {
-        gaps 10 // Gap between windows
+        gaps 8 // Gap between windows
         center-focused-column "never" // Don’t auto-center focused column
         always-center-single-column
 
@@ -23,7 +23,7 @@
 
         border {
             on
-            width 6
+            width 4
 
             active-color "#c74"
             inactive-color "#542"

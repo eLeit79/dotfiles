@@ -10,8 +10,8 @@ opacity = 0.9
 decorations_theme_variant = "Dark"
 
 [window.padding]
-x = 16
-y = 16
+x = 17
+y = 20
 
 [window.dimensions]
 columns = 120
