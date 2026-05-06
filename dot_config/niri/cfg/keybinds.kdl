@@ -102,8 +102,8 @@ binds {
     Mod+TAB                             { focus-workspace-previous; }
 
     // ─── Layout Controls ───
-    Mod+C                               { center-column; }
-    Mod+CTRL+C                          { center-visible-columns; }
+    //Mod+C                               { center-column; }
+    //Mod+CTRL+C                          { center-visible-columns; }
     Mod+Alt+Right                       { switch-preset-window-width; }
     Mod+Alt+L                           { switch-preset-window-width; }
     Mod+Alt+Left                        { switch-preset-window-width-back; }
