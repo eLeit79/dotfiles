@@ -1,5 +1,5 @@
 window-rule {
-    geometry-corner-radius 7
+    geometry-corner-radius 10
     clip-to-geometry true
     draw-border-with-background false
 }
@@ -14,10 +14,58 @@ window-rule {
 }
 
 window-rule {
-    match app-id="alacritty-fullscreen"
+    match app-id="Alacritty"
+
+    default-column-width { proportion 0.3333; }
+
+    open-focused true
+}
+
+window-rule {
+    match app-id="godot-launcher"
+
+    default-column-width { fixed 1280; }
+    default-window-height { proportion 0.66667; }
+
+    open-floating true
+    open-focused true
+}
+
+// Guild Wars 2 (steam)
+window-rule {
+    match app-id="steam_app_1284210"
+
+    variable-refresh-rate true
+
+    focus-ring {
+        off
+    }
+
+    border {
+        off
+    }
+
+    shadow {
+        off
+    }
+}
+
+// No Man's Sky (steam)
+window-rule {
+    match app-id="steam_app_275850"
+
+    variable-refresh-rate true
 
     open-fullscreen true
-    open-focused true
+}
+
+// Remnant 2 (steam)
+window-rule {
+    match app-id="steam_app_1282100"
+
+    variable-refresh-rate true
+
+    open-fullscreen true
 }
 
 window-rule {
