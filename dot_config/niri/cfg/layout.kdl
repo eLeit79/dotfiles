@@ -26,7 +26,9 @@
             width 5
 
             active-color "#c88848"
-            inactive-color "#543"
+            //active-gradient from="hsl(35, 54%, 63%)" to="hsl(25, 54%, 43%)"
+            inactive-color "#514437"
+            //inactive-gradient from="hsl(25, 19%, 37%)" to="hsl(35, 19%, 17%)"
         }
 
         shadow {
