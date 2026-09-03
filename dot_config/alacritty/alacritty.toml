@@ -6,7 +6,7 @@ WINIT_X11_SCALE_FACTOR = "1"
 dynamic_padding = false
 decorations = "full"
 title = "Alacritty@CachyOS"
-opacity = 0.9
+opacity = 0.95
 decorations_theme_variant = "Dark"
 
 [window.padding]
@@ -29,7 +29,7 @@ multiplier = 3
 draw_bold_text_with_bright_colors = true
 
 [colors.primary]
-background = "0x000000"
+background = "0x181818"
 foreground = "0xD8DEE9"
 
 [colors.normal]
@@ -53,23 +53,23 @@ cyan = "0x8FBCBB"
 white = "0xECEFF4"
 
 [font]
-size = 15
+size = 16.5
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
-style = "Regular"
+style = "SemiBold"
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
-style = "Bold"
+style = "ExtraBold"
 
 [font.italic]
 family = "JetBrainsMono Nerd Font"
-style = "Italic"
+style = "SemiBold Italic"
 
 [font.bold_italic]
 family = "JetBrainsMono Nerd Font"
-style = "Bold Italic"
+style = "ExtraBold Italic"
 
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"

@@ -7,8 +7,8 @@ window-rule {
 window-rule {
     match app-id="alacritty-floating"
 
-    default-column-width { fixed 1280; }
-    default-window-height { proportion 0.5; }
+    default-column-width { fixed 1600; }
+    default-window-height { proportion 0.6667; }
 
     open-floating true
 }
@@ -25,7 +25,7 @@ window-rule {
     match app-id="godot-launcher"
 
     default-column-width { fixed 1280; }
-    default-window-height { proportion 0.66667; }
+    default-window-height { proportion 0.6667; }
 
     open-floating true
     open-focused true
@@ -72,7 +72,7 @@ window-rule {
     match app-id="org.gnome.Nautilus"
 
     default-column-width { fixed 1280; }
-    default-window-height { proportion 0.66667; }
+    default-window-height { proportion 0.6667; }
 
     open-floating true
 }
@@ -81,7 +81,7 @@ window-rule {
     match app-id="net.davidotek.pupgui2"
 
     default-column-width { fixed 600; }
-    default-window-height { proportion 0.33333; }
+    default-window-height { proportion 0.3333; }
 
     open-floating true
 }
