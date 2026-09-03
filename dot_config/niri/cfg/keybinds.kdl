@@ -40,7 +40,7 @@ binds {
     XF86MonBrightnessDown               allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call brightness decrease"; }
 
     // ─── Window Movement and Focus ───
-    Mod+W                               { close-window; }
+    Mod+Q                               { close-window; }
 
     Mod+Left                            { focus-column-left; }
     Mod+Right                           { focus-column-right; }
